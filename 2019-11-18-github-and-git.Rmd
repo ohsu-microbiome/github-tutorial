@@ -1,0 +1,117 @@
+---
+title: "GitHub and Git"
+author: "Eric leung"
+date: "2019-11-18"
+output:
+  powerpoint_presentation
+---
+
+```{r setup, include=FALSE}
+# Basic setup
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+
+- Check everyone has a GitHub account
+- What is GitHub (and others) and Git? Why use it?
+- Key terminology
+- Demonstrating Git and GitHub
+- Demonstration and lab meeting activity
+- Resources
+
+
+## Common logos
+
+![](https://i0.wp.com/www.seattleawc.org/wp-content/uploads/2019/01/Git-Largest.jpg)
+
+
+## What is GitHub?
+
+Wikipedia says GitHub
+
+> "...provides **hosting** for **software development version control** using
+> **Git**"
+
+- **hosting** = centralized place to put stuff
+- **software development** = mostly for code, but can contain other things as
+  well
+- **version control** = sophisticated time machine
+- **Git** underlying software
+
+Fun fact. Octocat is the mascot of GitHub https://octodex.github.com/ 
+
+
+
+## What is Git?
+
+Wikipedia says Git is a
+
+> "...**distributed** version-control system for **tracking changes** in source
+> code during software development"
+
+- **distributed** = each person has a copy and can contribute in spread out way
+- **tracking changes** = another word for sophisticated time machine
+
+**Note:** Key difference between Git and GitHub is the former is on your
+computer and the latter is on the internet with Git as the backbone.
+
+
+## Key terminology and actions
+
+- **Repo(sitory)** = folder or project on GitHub
+- **Fork** = creating copy of someone else's repository to contribute to
+- **Branch** = create alternate timeline 
+- **Commit** = make changes to timeline
+- **Stage** = prepare changes to be added to your timeline
+- **Push/Pull** = update GitHub files or files locally
+
+
+## Workflow for working with GitHub
+
+- Create and name GitHub repository
+- Clone repository to your computer
+- Add files
+- Commit changes
+- Push changes to GitHub
+
+
+## Minimal commands to learn
+
+```
+git status              # See status of repository
+
+git pull                # Update local files
+  
+git checkout            # Switch timelines
+
+git add <file_name>     # Add file to be staged
+
+git commit -m "Summary" # Commit changes
+
+git push                # Update files on GitHub
+```
+
+
+## Visual overview
+
+![](http://blog.podrezo.com/wp-content/uploads/2014/09/git-operations.png)
+
+
+## Demonstration!
+
+
+## Lab meeting activity
+
+In person activity.
+
+
+## Resources
+
+- Plain English situations and how to get out of them https://ohshitgit.com/
+- Pro Git book for reference https://git-scm.com/book/en/v2
+- Useful minimal set of commands for everyday Git 
+  https://git-scm.com/docs/giteveryday
+- Flight rules for git https://github.com/k88hudson/git-flight-rules
+- GitHub and Git cheatsheet 
+  https://education.github.com/git-cheat-sheet-education.pdf
